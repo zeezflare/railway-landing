@@ -108,24 +108,54 @@ header .navigation a:hover{
     transform: scale(1.5);
 }
 /*Responsive styles*/
-@media (max-width:960px){
+@media (max-width:767px)  {
+    header{
+        padding: 0px;
+        margin: 0px;
+    }
     header .logo{
-        position: absolute;
-        bottom: 18px;
-        left: 23px;
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+        top: 0px;
+        font-weight: 300px;
+    }
+    header .navigation{
+        font-weight: 300px;
+        font-size: 12px;
+        padding: 0px 5px;
+        border-radius: 5px;
+    }
+    .content{
+        max-width: 300px;
+        margin: 30px 50px;
     }
     .content .info h2{
         font-size: 45px;
         line-height: 50px;
     }
     .content .info h2 span{
-        font-size: 40px;
+        font-size: 45px;
         font-weight: 600;
     }
     .content .info p{
         font-size: 14px;
     }
-    @media (max-width: 560px){
+    .content .info-btn{
+        padding: 10px 20px;
+    }
+}
+    @media (max-width:479px){
+        header{
+            padding: 0px;
+            margin: 0px;
+        }
+        header .logo{
+            position: relative;
+            bottom: 10px;
+            left: 10px;
+            top: 0px;
+        }
         .content .info h2{
             font-size: 35px;
             line-height: 40px;
@@ -137,5 +167,7 @@ header .navigation a:hover{
         .content .info p{
             font-size: 14px;
         }
+        .content .info-btn{
+            padding: 10px 20px;
+        }
     }
-}
