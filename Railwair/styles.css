@@ -151,7 +151,7 @@ header .navigation a:hover{
         padding: 10px 20px;
     }
 }
-    @media (max-width:479px){
+    @media (max-width:844px){
         *{
             text-align: center;
         }
@@ -167,14 +167,14 @@ header .navigation a:hover{
         }
         header .navigation{
             font-weight: 200px;
-            font-size: 5px;
+            font-size: 20px;
             padding: 30px;
             border-radius: 5px;
             margin: 10px;
         }
         .content .info h2{
             color: #fff;
-            font-size: 20px;
+            font-size: 30px;
             text-transform: uppercase;
             font-weight: 400px;
             letter-spacing: 1px;
@@ -187,7 +187,7 @@ header .navigation a:hover{
             text-transform: uppercase;
         }
         .content .info p{
-            font-size: 10px;
+            font-size: 20px;
         }
         .content .info-btn{
             color: white;
@@ -204,8 +204,7 @@ header .navigation a:hover{
         }
         .media-icons a{
             position: relative;
-            color: black;
+            color: red;
             font-size: 15px;
         }
     }
-
