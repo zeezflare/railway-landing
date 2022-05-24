@@ -108,7 +108,7 @@ header .navigation a:hover{
     transform: scale(1.5);
 }
 /*Responsive styles*/
-@media (max-width:767px)  {
+@media (max-width:767px){
     header{
         padding: 0px;
         margin: 0px;
